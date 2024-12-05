@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de cómo crear un sitio web en internet</title>
+    <link rel="stylesheet" href="temas.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1 class="main-title">Ejemplo de cómo crear un sitio web en internet</h1>
+    </header>
+
+    <main class="content-wrapper">
+        <section class="introduction">
+            <h2 class="section-title">Introducción</h2>
+            <p class="lead-paragraph">Crear un sitio web en internet puede parecer una tarea abrumadora, pero con los pasos correctos, puede ser un proceso bastante directo. Este ejemplo te guiará a través de la creación de un sitio web simple utilizando HTML, CSS y un servicio de hosting gratuito.</p>
+            <div class="imagen-container">
+                <img src="ANT.png" alt="Imagen del Tema 5" class="topic-image">
+            </div>
+        </section>
+
+        <section class="step-by-step">
+            <div class="step">
+                <h3 class="step-title">Paso 1: Planificación del sitio web</h3>
+                <p>Antes de comenzar a codificar, es importante planificar tu sitio web:</p>
+                <ul class="step-list">
+                    <li>Define el propósito de tu sitio web</li>
+                    <li>Esboza la estructura y el contenido de las páginas</li>
+                    <li>Decide sobre el diseño básico</li>
+                </ul>
+            </div>
+
+            <div class="step">
+                <h3 class="step-title">Paso 2: Crear el HTML básico</h3>
+                <p>Comienza creando un archivo llamado <code>index.html</code> con el siguiente contenido:</p>
+                <div class="code-block">
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Mi Primer Sitio Web&lt;/title&gt;
+    &lt;link rel="stylesheet" href="estilos.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Bienvenido a Mi Sitio Web&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;nav&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Acerca de&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/nav&gt;
+    &lt;main&gt;
+        &lt;h2&gt;Contenido Principal&lt;/h2&gt;
+        &lt;p&gt;Este es un ejemplo de párrafo en mi sitio web.&lt;/p&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;
+        &lt;p&gt;&amp;copy; 2024 Mi Sitio Web&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="step">
+                <h3 class="step-title">Paso 3: Añadir estilos con CSS</h3>
+                <p>Crea un archivo llamado <code>estilos.css</code> en el mismo directorio y añade los siguientes estilos:</p>
+                <div class="code-block">
+                    <pre><code>body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}</code></pre>
+                </div>
+            </div>
+
+            <div class="step">
+                <h3 class="step-title">Paso 4: Elegir un servicio de hosting</h3>
+                <p>Para este ejemplo, usaremos GitHub Pages, un servicio de hosting gratuito:</p>
+                <ol class="step-list">
+                    <li>Crea una cuenta en GitHub si aún no tienes una</li>
+                    <li>Crea un nuevo repositorio llamado <code>username.github.io</code>, donde "username" es tu nombre de usuario de GitHub</li>
+                    <li>Sube tus archivos HTML y CSS a este repositorio</li>
+                </ol>
+            </div>
+
+            <div class="step">
+                <h3 class="step-title">Paso 5: Publicar tu sitio web</h3>
+                <p>Una vez que hayas subido tus archivos a GitHub:</p>
+                <ol class="step-list">
+                    <li>Ve a la pestaña "Settings" de tu repositorio</li>
+                    <li>Desplázate hacia abajo hasta la sección "GitHub Pages"</li>
+                    <li>En "Source", selecciona la rama "main"</li>
+                    <li>Tu sitio web ahora estará disponible en <code>https://username.github.io</code></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="conclusion">
+            <h2 class="section-title">Conclusión</h2>
+            <p class="summary">¡Felicidades! Has creado y publicado tu primer sitio web. Recuerda que este es solo un ejemplo básico. A medida que te familiarices más con el desarrollo web, podrás añadir más funcionalidades, mejorar el diseño y crear sitios web más complejos.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="author">CASTREJON ACOSTA GAEL JESUS 2641</p>
+        <a href="PAGINA_PRINCIPAL.html" class="boton">VOLVER A INICIO</a>
+    </footer>
+</body>
+</html>
